@@ -12,3 +12,6 @@ for ( i in c ){
 while(d = a.pop())
 console.log(d());//2 2 2
 ```
+for( i in arr ) 中的i为下标 
+
+function(){ return i } 中的i是对循环中i的引用。所以为最终值。
